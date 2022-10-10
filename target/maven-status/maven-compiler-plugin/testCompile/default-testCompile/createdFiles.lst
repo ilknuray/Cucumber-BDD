@@ -1,1 +1,7 @@
+stepdefinitions\TutorialStepDefination.class
+pages\TutorialPage.class
+stepdefinitions\EditorStepdefinition.class
 runners\Runner.class
+stepdefinitions\HerokuStepdefinition.class
+pages\EditorPage.class
+pages\HerokuPage.class

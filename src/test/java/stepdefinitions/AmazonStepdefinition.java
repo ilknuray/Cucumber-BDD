@@ -98,4 +98,10 @@ public class AmazonStepdefinition {
             throw new RuntimeException(e);
         }
     }
+
+    @And("kulanici {string} sayfasini yeniler")
+    public void kulaniciSayfasiniYeniler(String istenenYenileme) {
+        Driver.getDriver().get(istenenYenileme);
+        Driver.getDriver().navigate().refresh();
+    }
 }
