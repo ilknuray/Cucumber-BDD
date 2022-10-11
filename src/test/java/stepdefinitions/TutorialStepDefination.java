@@ -57,5 +57,7 @@ public class TutorialStepDefination {
     @And("Sepetteki ve sayfadaki ürünlerin doğru olduğunu karşılaştırır")
     public void sepettekiVeSayfadakiurunlerinDogruOldugunuKarsilastirir() {
 
+
+
     }
 }

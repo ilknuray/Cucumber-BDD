@@ -1,7 +1,9 @@
 stepdefinitions\TutorialStepDefination.class
 pages\TutorialPage.class
+pages\YoutubePage.class
 stepdefinitions\EditorStepdefinition.class
 runners\Runner.class
 stepdefinitions\HerokuStepdefinition.class
 pages\EditorPage.class
 pages\HerokuPage.class
+stepdefinitions\YoutubeStepdefinition.class
