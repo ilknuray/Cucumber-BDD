@@ -1,9 +1,11 @@
-stepdefinitions\TutorialStepDefination.class
+pages\CdiscountPage.class
 pages\TutorialPage.class
 pages\YoutubePage.class
-stepdefinitions\EditorStepdefinition.class
-runners\Runner.class
-stepdefinitions\HerokuStepdefinition.class
+stepdefinitions\CdiscountStepdefinition.class
 pages\EditorPage.class
 pages\HerokuPage.class
 stepdefinitions\YoutubeStepdefinition.class
+stepdefinitions\TutorialStepDefination.class
+stepdefinitions\EditorStepdefinition.class
+runners\Runner.class
+stepdefinitions\HerokuStepdefinition.class
