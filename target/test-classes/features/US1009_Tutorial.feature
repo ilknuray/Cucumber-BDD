@@ -8,3 +8,4 @@
     And Sepete tıklar
     And Sepetteki isimleri alır
     And Sepetteki ve sayfadaki ürünlerin doğru olduğunu karşılaştırır
+      And sayfayi kapatir

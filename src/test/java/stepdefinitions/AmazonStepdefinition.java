@@ -1,13 +1,18 @@
 package stepdefinitions;
 
+import com.github.javafaker.Faker;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
 import org.junit.Assert;
 import org.openqa.selenium.Keys;
 import pages.AmazonPage;
 import utilities.ConfigReader;
 import utilities.Driver;
+import utilities.Reusablemethods;
+
+import java.io.IOException;
 
 public class AmazonStepdefinition {
     AmazonPage amazonPage=new AmazonPage();
@@ -103,5 +108,69 @@ public class AmazonStepdefinition {
     public void kulaniciSayfasiniYeniler(String istenenYenileme) {
         Driver.getDriver().get(istenenYenileme);
         Driver.getDriver().navigate().refresh();
+    }
+
+    @When("sign in butonuna tiklar")
+    public void signInButonunaTiklar() {
+        amazonPage.signinTik.click();
+
+    }
+
+    @And("faker kullanarak e-posta gonderir")
+    public void fakerKullanarakEPostaGonderir() {
+
+        amazonPage.email.sendKeys(Reusablemethods.getFaker().internet().emailAddress());
+
+    }
+
+    @And("gonderdigi e-postanın ekran goruntusunu alir")
+    public void gonderdigiEPostaninEkranGoruntusunuAlir() throws IOException {
+        Reusablemethods.getScreenshotWebElement("email",amazonPage.email);
+
+    }
+
+    @And("continiue'a tiklar")
+    public void continiueATiklar() {
+        amazonPage.devamTik.click();
+    }
+
+    @Then("There was a problem mesajini dogrular")
+    public void thereWasAProblemMesajiniDogrular() {
+        Assert.assertTrue(amazonPage.alert.isDisplayed());
+    }
+
+    @And("Need help e tiklar")
+    public void needHelpETiklar() {
+        amazonPage.help.click();
+    }
+
+    @And("forgot your password e tiklar")
+    public void forgotYourPasswordETiklar() {
+        amazonPage.forgatPassword.click();
+
+    }
+
+    @Then("Password assistance metnini dogrular")
+    public void passwordAssistanceMetniniDogrular() {
+       // String actualText=amazonPage.passwordAsistan.getText();
+        Assert.assertTrue(amazonPage.passwordAsistan.isDisplayed());
+    }
+
+    @And("Geri gider")
+    public void geriGider() {
+        Driver.getDriver().navigate().back();
+        Driver.getDriver().navigate().back();
+
+
+    }
+
+    @And("Create your account butonuna tiklar")
+    public void createYourAccountButonunaTiklar() {
+        amazonPage.createYourAccountTik.click();
+    }
+
+    @Then("Create account metnini dogrular")
+    public void createAccountMetniniDogrular() {
+        Assert.assertTrue(amazonPage.createAcountText.isDisplayed());
     }
 }

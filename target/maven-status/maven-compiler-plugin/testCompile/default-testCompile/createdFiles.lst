@@ -5,7 +5,13 @@ stepdefinitions\CdiscountStepdefinition.class
 pages\EditorPage.class
 pages\HerokuPage.class
 stepdefinitions\YoutubeStepdefinition.class
+pages\AutomationPage.class
+pages\DatabasePage.class
+utilities\Reusablemethods$1.class
+utilities\Reusablemethods.class
 stepdefinitions\TutorialStepDefination.class
+stepdefinitions\Databasestepdefinition.class
 stepdefinitions\EditorStepdefinition.class
 runners\Runner.class
+stepdefinitions\AutomationExStepdefinition.class
 stepdefinitions\HerokuStepdefinition.class

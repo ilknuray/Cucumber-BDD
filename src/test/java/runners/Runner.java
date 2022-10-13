@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = "src/test/resources/features",
         glue = "stepdefinitions",
-        tags ="@delete",
+        tags ="@amazonsignin",
         dryRun = false
 )
 public class Runner {
