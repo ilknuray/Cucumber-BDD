@@ -1,0 +1,118 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-10-13T19:04:41.723Z",
+        "line": 4,
+        "name": "TC12 herokuapp delete butonu calismali",
+        "description": "",
+        "id": "us1008-herokuapp-delete-butonu-testi;tc12-herokuapp-delete-butonu-calismali",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9135061900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "kullanici \"HerokuAppUrl\" sayfasinda",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"HerokuAppUrl\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.AmazonStepdefinition.kullaniciSayfasinda(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 84831100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "add element butonuna basar",
+            "match": {
+              "location": "stepdefinitions.HerokuStepdefinition.add_element_butonuna_basar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 46492900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "delete butonu gorunur oluncaya kadar bekler",
+            "match": {
+              "location": "stepdefinitions.HerokuStepdefinition.delete_butonu_gorunur_oluncaya_kadar_bekler()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 32677500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "delete butonunun gorunur oldugunu test eder",
+            "match": {
+              "location": "stepdefinitions.HerokuStepdefinition.delete_butonunun_gorunur_oldugunu_test_eder()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 43458300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "delete butonuna basar",
+            "match": {
+              "location": "stepdefinitions.HerokuStepdefinition.delete_butonuna_basar()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "delete butonunun gorunmedigini test eder",
+            "match": {
+              "location": "stepdefinitions.HerokuStepdefinition.delete_butonunun_gorunmedigini_test_eder()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 19285408800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "sayfayi kapatir",
+            "match": {
+              "location": "stepdefinitions.AmazonStepdefinition.sayfayiKapatir()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@delete"
+          }
+        ]
+      }
+    ],
+    "name": "US1008 Herokuapp delete butonu testi",
+    "description": "",
+    "id": "us1008-herokuapp-delete-butonu-testi",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/US1008_ScenarioOutlineKullanimi.feature",
+    "tags": []
+  }
+]

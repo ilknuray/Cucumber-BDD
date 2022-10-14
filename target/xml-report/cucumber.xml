@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="28.933">
+    <testcase classname="US1008 Herokuapp delete butonu testi" name="TC12 herokuapp delete butonu calismali" time="28.705">
+        <system-out>
+            <![CDATA[Given kullanici "HerokuAppUrl" sayfasinda...................................passed
+And add element butonuna basar..............................................passed
+And delete butonu gorunur oluncaya kadar bekler.............................passed
+And delete butonunun gorunur oldugunu test eder.............................passed
+Then delete butonuna basar..................................................passed
+And delete butonunun gorunmedigini test eder................................passed
+And sayfayi kapatir.........................................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

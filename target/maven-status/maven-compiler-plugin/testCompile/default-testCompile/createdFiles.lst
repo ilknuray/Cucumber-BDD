@@ -2,10 +2,12 @@ pages\CdiscountPage.class
 pages\TutorialPage.class
 pages\YoutubePage.class
 stepdefinitions\CdiscountStepdefinition.class
+pages\GuruPage.class
 pages\EditorPage.class
 pages\HerokuPage.class
 stepdefinitions\YoutubeStepdefinition.class
 pages\AutomationPage.class
+stepdefinitions\PractiseStepdefinition.class
 pages\DatabasePage.class
 utilities\Reusablemethods$1.class
 utilities\Reusablemethods.class
@@ -15,3 +17,4 @@ stepdefinitions\EditorStepdefinition.class
 runners\Runner.class
 stepdefinitions\AutomationExStepdefinition.class
 stepdefinitions\HerokuStepdefinition.class
+stepdefinitions\Gurustepdefinition.class
