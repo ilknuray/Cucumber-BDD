@@ -1,15 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="28.933">
-    <testcase classname="US1008 Herokuapp delete butonu testi" name="TC12 herokuapp delete butonu calismali" time="28.705">
-        <system-out>
-            <![CDATA[Given kullanici "HerokuAppUrl" sayfasinda...................................passed
-And add element butonuna basar..............................................passed
-And delete butonu gorunur oluncaya kadar bekler.............................passed
-And delete butonunun gorunur oldugunu test eder.............................passed
-Then delete butonuna basar..................................................passed
-And delete butonunun gorunmedigini test eder................................passed
-And sayfayi kapatir.........................................................passed
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="12.393">
+    <testcase classname="US1003 kullanici parametre kullanarak arama yapabilmeli" name="TC07 kullanici parametre ile amazonda arama yapabilmeli" time="12.11">
+        <failure message="" type="java.lang.AssertionError">
+            <![CDATA[Given kullanici amazon anasayfasina gider...................................passed
+And kullanici "Nutella" aratir..............................................passed
+And arama sonuclarinin "Kutella" icerdegini test eder.......................failed
+Then sayfayi kapatir........................................................skipped
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at stepdefinitions.AmazonStepdefinition.aramaSonuclarininIcerdeginiTestEder(AmazonStepdefinition.java:82)
+	at ✽.arama sonuclarinin "Kutella" icerdegini test eder(file:///C:/Users/fylmz/IdeaProjects/com.cucumber81/src/test/resources/features/US1003_parametreKullanimi.feature:7)
 ]]>
-        </system-out>
+        </failure>
     </testcase>
 </testsuite>

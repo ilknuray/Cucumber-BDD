@@ -27,7 +27,7 @@ public class Gurustepdefinition {
         int istenenBaslikIndexi=-3;
         for (int i = 0; i < baslikListesi.size(); i++) {
             if (baslikListesi.get(i).getText().equals(istenenbaslik)){
-                istenenBaslikIndexi=i=1;
+                istenenBaslikIndexi=i+1;
                 break;
             }
         }

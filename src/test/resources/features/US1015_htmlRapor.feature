@@ -4,5 +4,5 @@ Feature: US1015 rapor alma
     Given kullanici "DemoguruUrl" sayfasinda
     And kullanici 3 sn bekler
     When cerezleri onaylar.
-    And "istenenbaslik" sutunundaki tum degerleri yazdirir
+    And "Company" sutunundaki tum degerleri yazdirir
     And sayfayi kapatir

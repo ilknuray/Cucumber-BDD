@@ -1,11 +1,13 @@
 C:\Users\fylmz\IdeaProjects\com.cucumber81\src\test\java\stepdefinitions\Gurustepdefinition.java
 C:\Users\fylmz\IdeaProjects\com.cucumber81\src\test\java\stepdefinitions\EditorStepdefinition.java
+C:\Users\fylmz\IdeaProjects\com.cucumber81\src\test\java\stepdefinitions\Hooks.java
 C:\Users\fylmz\IdeaProjects\com.cucumber81\src\test\java\pages\EditorPage.java
 C:\Users\fylmz\IdeaProjects\com.cucumber81\src\test\java\utilities\ConfigReader.java
 C:\Users\fylmz\IdeaProjects\com.cucumber81\src\test\java\pages\CdiscountPage.java
 C:\Users\fylmz\IdeaProjects\com.cucumber81\src\test\java\pages\DatabasePage.java
 C:\Users\fylmz\IdeaProjects\com.cucumber81\src\test\java\pages\HerokuPage.java
 C:\Users\fylmz\IdeaProjects\com.cucumber81\src\test\java\pages\TutorialPage.java
+C:\Users\fylmz\IdeaProjects\com.cucumber81\src\test\java\runners\TestRunner.java
 C:\Users\fylmz\IdeaProjects\com.cucumber81\src\test\java\utilities\Reusablemethods.java
 C:\Users\fylmz\IdeaProjects\com.cucumber81\src\test\java\stepdefinitions\Databasestepdefinition.java
 C:\Users\fylmz\IdeaProjects\com.cucumber81\src\test\java\stepdefinitions\PractiseStepdefinition.java
@@ -20,4 +22,3 @@ C:\Users\fylmz\IdeaProjects\com.cucumber81\src\test\java\pages\YoutubePage.java
 C:\Users\fylmz\IdeaProjects\com.cucumber81\src\test\java\stepdefinitions\CdiscountStepdefinition.java
 C:\Users\fylmz\IdeaProjects\com.cucumber81\src\test\java\stepdefinitions\HerokuStepdefinition.java
 C:\Users\fylmz\IdeaProjects\com.cucumber81\src\test\java\stepdefinitions\AutomationExStepdefinition.java
-C:\Users\fylmz\IdeaProjects\com.cucumber81\src\test\java\runners\Runner.java

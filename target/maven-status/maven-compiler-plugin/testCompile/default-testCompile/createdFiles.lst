@@ -12,9 +12,10 @@ pages\DatabasePage.class
 utilities\Reusablemethods$1.class
 utilities\Reusablemethods.class
 stepdefinitions\TutorialStepDefination.class
+stepdefinitions\Hooks.class
 stepdefinitions\Databasestepdefinition.class
 stepdefinitions\EditorStepdefinition.class
-runners\Runner.class
 stepdefinitions\AutomationExStepdefinition.class
+runners\TestRunner.class
 stepdefinitions\HerokuStepdefinition.class
 stepdefinitions\Gurustepdefinition.class
