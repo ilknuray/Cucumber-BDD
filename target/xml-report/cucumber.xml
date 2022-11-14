@@ -1,20 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="12.393">
-    <testcase classname="US1003 kullanici parametre kullanarak arama yapabilmeli" name="TC07 kullanici parametre ile amazonda arama yapabilmeli" time="12.11">
-        <failure message="" type="java.lang.AssertionError">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="36.972">
+    <testcase classname="US1003 kullanici parametre kullanarak arama yapabilmeli" name="TC07 kullanici parametre ile amazonda arama yapabilmeli" time="36.66">
+        <system-out>
             <![CDATA[Given kullanici amazon anasayfasina gider...................................passed
 And kullanici "Nutella" aratir..............................................passed
-And arama sonuclarinin "Kutella" icerdegini test eder.......................failed
-Then sayfayi kapatir........................................................skipped
-
-StackTrace:
-java.lang.AssertionError
-	at org.junit.Assert.fail(Assert.java:87)
-	at org.junit.Assert.assertTrue(Assert.java:42)
-	at org.junit.Assert.assertTrue(Assert.java:53)
-	at stepdefinitions.AmazonStepdefinition.aramaSonuclarininIcerdeginiTestEder(AmazonStepdefinition.java:82)
-	at ✽.arama sonuclarinin "Kutella" icerdegini test eder(file:///C:/Users/fylmz/IdeaProjects/com.cucumber81/src/test/resources/features/US1003_parametreKullanimi.feature:7)
+And arama sonuclarinin "Nutella" icerdegini test eder.......................passed
+Then sayfayi kapatir........................................................passed
 ]]>
-        </failure>
+        </system-out>
     </testcase>
 </testsuite>

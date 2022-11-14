@@ -1,12 +1,59 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="38.785">
-    <testcase classname="US1003 kullanici parametre kullanarak arama yapabilmeli" name="TC07 kullanici parametre ile amazonda arama yapabilmeli" time="38.532">
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="75.439">
+    <testcase classname="US015 Kullanici giris testi" name="TC01 Kullanici sitede hesap olusturur" time="45.201">
         <system-out>
-            <![CDATA[Given kullanici amazon anasayfasina gider...................................passed
-And kullanici "Nutella" aratir..............................................passed
-And arama sonuclarinin "Nutella" icerdegini test eder.......................passed
-Then sayfayi kapatir........................................................passed
+            <![CDATA[Given kullanici "autoUrl" sayfasinda........................................passed
+And kullanici sign in linkine tiklar........................................passed
+And kullanici Create and account bolumune email adresi girer................passed
+And kullanici Create an Account butonuna basar..............................passed
+And kullanici kisisel bilgilerini ve iletisim bilgilerini girer.............passed
+And kullanici Register butonuna basar.......................................passed
+Then kullanicinin hesap olusturuldugunu dogrulayin..........................passed
+And sayfayi kapatir.........................................................passed
 ]]>
         </system-out>
+    </testcase>
+    <testcase classname="US1017 Kullanici register yapabilmeli" name="Kullanici uygun datalarla register yapabilmeli" time="29.886">
+        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@class='login']&quot;}&#10;  (Session info: chrome=106.0.5249.119)&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element&#10;Build info: version: '4.1.2', revision: '9a5a329c5a'&#10;System info: host: 'ILKNUR', ip: '192.168.1.26', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [0e1dbe60a132c6bc90d510631d43774f, findElement {using=xpath, value=//*[@class='login']}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\fylmz\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50943}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50943/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 0e1dbe60a132c6bc90d510631d43774f" type="org.openqa.selenium.NoSuchElementException">
+            <![CDATA[Given kullanici "AtomationExcerciseUrl" sayfasinda..........................passed
+And kullanici sign in linkine tiklar........................................failed
+And kullanici Create and account bolumune email adresi girer................skipped
+And Create your account butonuna tiklar.....................................skipped
+And kullanici kisisel bilgilerini ve iletisim bilgilerini girer.............skipped
+And kullanici Register butonuna basar.......................................skipped
+Then kullanicinin hesap olusturuldugunu dogrulayin..........................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class='login']"}
+  (Session info: chrome=106.0.5249.119)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'ILKNUR', ip: '192.168.1.26', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0e1dbe60a132c6bc90d510631d43774f, findElement {using=xpath, value=//*[@class='login']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\fylmz\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50943}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50943/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0e1dbe60a132c6bc90d510631d43774f
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at com.sun.proxy.$Proxy23.click(Unknown Source)
+	at stepdefinitions.AutoStepDefinition.kullaniciSignInLinkineTiklar(AutoStepDefinition.java:18)
+	at ✽.kullanici sign in linkine tiklar(file:///C:/Users/fylmz/IdeaProjects/com.cucumber81/src/test/resources/features/US1017_Automation.feature:6)
+]]>
+        </failure>
     </testcase>
 </testsuite>

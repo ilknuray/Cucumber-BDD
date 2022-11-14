@@ -8,7 +8,8 @@ import utilities.Driver;
 
 public class Hooks {
     /*
-    Cucumber da steodefinitions package i icerisinde before after gibi bir notasyon varsa  extends testBase dememize gerek kalmadan  her scenario dan once ve sonra
+    Cucumber da stepdefinitions package i icerisinde before after gibi bir notasyon varsa  extends testBase dememize gerek kalmadan
+     her scenario dan once ve sonra
     bu methodlar calisacaktir
      */
     @After

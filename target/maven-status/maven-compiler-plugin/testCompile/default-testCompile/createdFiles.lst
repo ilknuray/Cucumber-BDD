@@ -2,6 +2,7 @@ pages\CdiscountPage.class
 pages\TutorialPage.class
 pages\YoutubePage.class
 stepdefinitions\CdiscountStepdefinition.class
+stepdefinitions\AmazonStepdefinition.class
 pages\GuruPage.class
 pages\EditorPage.class
 pages\HerokuPage.class
@@ -12,10 +13,16 @@ pages\DatabasePage.class
 utilities\Reusablemethods$1.class
 utilities\Reusablemethods.class
 stepdefinitions\TutorialStepDefination.class
+pages\AutoPage.class
+pages\AmazonPage.class
 stepdefinitions\Hooks.class
 stepdefinitions\Databasestepdefinition.class
 stepdefinitions\EditorStepdefinition.class
 stepdefinitions\AutomationExStepdefinition.class
 runners\TestRunner.class
 stepdefinitions\HerokuStepdefinition.class
+utilities\Driver.class
+stepdefinitions\AutoStepDefinition.class
+runners\TestRunner2.class
+utilities\ConfigReader.class
 stepdefinitions\Gurustepdefinition.class
