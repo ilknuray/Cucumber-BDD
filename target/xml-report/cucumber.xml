@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="36.972">
-    <testcase classname="US1003 kullanici parametre kullanarak arama yapabilmeli" name="TC07 kullanici parametre ile amazonda arama yapabilmeli" time="36.66">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="16.056">
+    <testcase classname="US1003 kullanici parametre kullanarak arama yapabilmeli" name="TC07 kullanici parametre ile amazonda arama yapabilmeli" time="15.705">
         <system-out>
             <![CDATA[Given kullanici amazon anasayfasina gider...................................passed
 And kullanici "Nutella" aratir..............................................passed

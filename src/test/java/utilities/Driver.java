@@ -15,7 +15,7 @@ public class Driver {
     sonda driver in kapatilmasi tercih edilmistir.
 
     pom da driver classindaki driver methodunun obje olusturularak kullanilmasini engellemek icin Singleton pattern kullanimi benimsenmistir.
-    (tekli kullanim)bir classsin farkli classlardan obje olusturularak kullanimini engellemek icin kullanilir.
+    (tekli kullanim)bir classin farkli classlardan obje olusturularak kullanimini engellemek icin kullanilir.
     bunu saglamak icin yapmamiz gereken cok basittir.obje olusturulmak icin yapilan driveri private yaptigimizda diger classlardan
     obje olusturulamaz
      */
